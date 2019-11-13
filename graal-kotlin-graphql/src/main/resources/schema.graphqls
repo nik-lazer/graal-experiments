@@ -1,0 +1,8 @@
+type Query{
+    types(filter:String):[Type]
+}
+
+type Type{
+    type: String
+    names: [String]
+}
