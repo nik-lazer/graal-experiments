@@ -45,6 +45,8 @@ dependencies {
     testImplementation "io.micronaut.test:micronaut-test-spock"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine"
     testRuntimeOnly "org.junit.vintage:junit-vintage-engine:5.5.0"
+
+    implementation 'io.micronaut.graphql:micronaut-graphql:1.2.1'
 }
 
 test.classpath += configurations.developmentOnly
