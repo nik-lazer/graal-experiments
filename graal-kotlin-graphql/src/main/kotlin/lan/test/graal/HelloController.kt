@@ -6,7 +6,7 @@ import io.micronaut.http.annotation.Get
 
 @Controller("/hello")
 class HelloController {
-    @Get(produces = [MediaTyspe.TEXT_JSON])
+    @Get(produces = [MediaType.TEXT_JSON])
     fun index(): Type {
         return Type.DEFAULT_TYPE
     }
