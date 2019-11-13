@@ -10,3 +10,10 @@
 <h2>Run docker container</h2>
 `docker run -p 8081:8080 -t graal-kotlin-graphql`
  
+  <h2>Make Graphql request in http://localhost:8081/graphiql</h2>
+ ` query {
+    types {
+      type,
+      names
+    }
+  }`
