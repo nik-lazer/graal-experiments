@@ -23,7 +23,7 @@ configurations {
 }
 
 dependencies {
-    annotationProcessor "io.micronaut:micronaut-graal"
+    kapt "io.micronaut:micronaut-graal"
     compileOnly "com.oracle.substratevm:svm"
     implementation platform("io.micronaut:micronaut-bom:$micronautVersion")
     implementation "io.micronaut:micronaut-http-client"
